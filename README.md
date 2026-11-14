@@ -10,6 +10,8 @@
 
 **Who it is for:** LTS is for people who appreciate Graphite's underlying structure but prefer bottom-row movements and Vim-conscious key placement.
 
+**The name:** LTS refers both to the consecutive `L`, `T`, and `S` keys on the home row and to “Long Term Support” for your hands, reflecting its goal of reducing finger movement and promoting lasting typing comfort.
+
 ### Layout
 
 ```text

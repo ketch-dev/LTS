@@ -28,10 +28,10 @@ B  R  D  C  Z    Q  F  O  U  .
 
 **Who it is for:** LTS is for people who appreciate Graphite's underlying structure but prefer bottom-row movements and Vim-conscious key placement.
 
-### Cyanophage Layout Playground
+### [Cyanophage Layout Playground](https://cyanophage.github.io/playground.html)
 
 ![LTS analysis in Cyanophage Layout Playground, showing finger usage, finger distance, bigrams, and trigram statistics.](images/cyanophage-layout-playground.png)
 
-### Oxey's Layout Playground
+### [Oxey's Layout Playground](https://oxey.dev/layouts/playground/)
 
 ![LTS analysis in Oxey's Layout Playground, showing finger usage, same-finger bigrams, rolls, alternates, and redirects.](images/oxey-layout-playground.png)

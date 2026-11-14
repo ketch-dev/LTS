@@ -13,7 +13,6 @@
     .shifted { fill: #a7b6cd; font-size: 12px; }
     .homing { fill: #7183a1; }
   </style>
-  <rect width="814" height="256" rx="18" fill="#0d121c"/>
   <!-- Top row -->
   <g transform="translate(24 24)">
     <rect class="key" width="64" height="64" rx="8"/>

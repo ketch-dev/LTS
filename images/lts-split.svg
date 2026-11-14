@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="832" height="280" viewBox="0 0 832 280" role="img" aria-labelledby="title description">
+  <title id="title">LTS — split keyboard</title>
+  <desc id="description">Thirty typing keys in two column-staggered halves, with five columns and three rows per hand. Left rows: slash X M W V; N L T S G; B R D C Z. Right rows: K P J semicolon comma; Y H A E I; Q F O U period. Shifted punctuation: question mark, colon, less-than, greater-than.</desc>
+  <defs>
+    <linearGradient id="keycap" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#252c3e"/>
+      <stop offset="1" stop-color="#171e2b"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .key { fill: url(#keycap); stroke: #354056; stroke-width: 1; }
+    text { fill: #f1f5f9; font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; font-size: 23px; font-weight: 500; text-anchor: middle; }
+    .shifted { fill: #a7b6cd; font-size: 12px; }
+    .homing { fill: #7183a1; }
+  </style>
+  <rect width="832" height="280" rx="18" fill="#0d121c"/>
+  <!-- Left half: top row -->
+  <g transform="translate(24 48)">
+    <rect class="key" width="64" height="64" rx="8"/>
+    <text x="32" y="40">/</text><text class="shifted" x="51" y="17">?</text>
+  </g>
+  <g transform="translate(96 32)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">X</text>
+  </g>
+  <g transform="translate(168 24)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">M</text>
+  </g>
+  <g transform="translate(240 32)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">W</text>
+  </g>
+  <g transform="translate(312 40)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">V</text>
+  </g>
+  <!-- Right half: top row -->
+  <g transform="translate(456 40)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">K</text>
+  </g>
+  <g transform="translate(528 32)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">P</text>
+  </g>
+  <g transform="translate(600 24)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">J</text>
+  </g>
+  <g transform="translate(672 32)">
+    <rect class="key" width="64" height="64" rx="8"/>
+    <text x="32" y="40">;</text><text class="shifted" x="51" y="17">:</text>
+  </g>
+  <g transform="translate(744 48)">
+    <rect class="key" width="64" height="64" rx="8"/>
+    <text x="32" y="40">,</text><text class="shifted" x="51" y="17">&lt;</text>
+  </g>
+  <!-- Left half: home row -->
+  <g transform="translate(24 120)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">N</text>
+  </g>
+  <g transform="translate(96 104)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">L</text>
+  </g>
+  <g transform="translate(168 96)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">T</text>
+  </g>
+  <g transform="translate(240 104)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">S</text>
+    <rect class="homing" x="25" y="53" width="14" height="2" rx="1"/>
+  </g>
+  <g transform="translate(312 112)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">G</text>
+  </g>
+  <!-- Right half: home row -->
+  <g transform="translate(456 112)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">Y</text>
+  </g>
+  <g transform="translate(528 104)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">H</text>
+    <rect class="homing" x="25" y="53" width="14" height="2" rx="1"/>
+  </g>
+  <g transform="translate(600 96)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">A</text>
+  </g>
+  <g transform="translate(672 104)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">E</text>
+  </g>
+  <g transform="translate(744 120)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">I</text>
+  </g>
+  <!-- Left half: bottom row -->
+  <g transform="translate(24 192)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">B</text>
+  </g>
+  <g transform="translate(96 176)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">R</text>
+  </g>
+  <g transform="translate(168 168)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">D</text>
+  </g>
+  <g transform="translate(240 176)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">C</text>
+  </g>
+  <g transform="translate(312 184)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">Z</text>
+  </g>
+  <!-- Right half: bottom row -->
+  <g transform="translate(456 184)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">Q</text>
+  </g>
+  <g transform="translate(528 176)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">F</text>
+  </g>
+  <g transform="translate(600 168)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">O</text>
+  </g>
+  <g transform="translate(672 176)">
+    <rect class="key" width="64" height="64" rx="8"/><text x="32" y="40">U</text>
+  </g>
+  <g transform="translate(744 192)">
+    <rect class="key" width="64" height="64" rx="8"/>
+    <text x="32" y="40">.</text><text class="shifted" x="51" y="17">&gt;</text>
+  </g>
+</svg>

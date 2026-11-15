@@ -12,14 +12,6 @@
 
 **The name:** LTS refers both to the consecutive `L`, `T`, and `S` keys on the home row and to “Long Term Support” for your hands, reflecting its goal of reducing finger movement and promoting lasting typing comfort.
 
-### Layout
-
-```text
-/  X  M  W  V    K  P  J  ;  ,
-N  L  T  S  G    Y  H  A  E  I
-B  R  D  C  Z    Q  F  O  U  .
-```
-
 ### Installation
 
 Download this repository using **Code → Download ZIP**, extract it, and choose **one implementation per input context**:
@@ -35,16 +27,13 @@ Download this repository using **Code → Download ZIP**, extract it, and choose
 
 All implementations use a **US-QWERTY baseline** and remap only the 30 positions above. Shift gives uppercase letters and the usual punctuation partners: `/?`, `;:`, `,<`, `.>`. Numbers, other punctuation, modifiers, navigation, and function keys retain the target platform's US behavior. Regular and split keyboards use the same mapping.
 
-### Maintaining the files
+### Layout
 
-The layout diagram above is the reference. Maintain each platform's layout file directly; no generator or build system is required, except MSKLC to build the native Windows installer. If changing the layout, update all six formats and the diagrams together.
-
-Before distributing a change:
-
-1. Run the format validation described in the relevant platform guide, then check all three typing rows in an empty editor.
-2. Check Shift, Caps Lock, Shift+Caps Lock, and the four punctuation pairs.
-3. Verify Ctrl+C/V/Z/A (Command on macOS), terminal Ctrl-letter behavior, and unchanged keys. Check Option accents on macOS.
-4. Verify activation, switching back to US, and removal on the actual target OS. Keep US available and do not test with real passwords.
+```text
+/  X  M  W  V    K  P  J  ;  ,
+N  L  T  S  G    Y  H  A  E  I
+B  R  D  C  Z    Q  F  O  U  .
+```
 
 ### Regular keyboard
 

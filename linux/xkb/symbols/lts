@@ -1,0 +1,37 @@
+// LTS (US keyboard layout).
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+    include "us(basic)"
+    name[Group1] = "LTS (US)";
+
+    key <AD01> { type[Group1] = "TWO_LEVEL", [ slash, question ] };
+    key <AD02> { type[Group1] = "ALPHABETIC", [ x, X ] };
+    key <AD03> { type[Group1] = "ALPHABETIC", [ m, M ] };
+    key <AD04> { type[Group1] = "ALPHABETIC", [ w, W ] };
+    key <AD05> { type[Group1] = "ALPHABETIC", [ v, V ] };
+    key <AD06> { type[Group1] = "ALPHABETIC", [ k, K ] };
+    key <AD07> { type[Group1] = "ALPHABETIC", [ p, P ] };
+    key <AD08> { type[Group1] = "ALPHABETIC", [ j, J ] };
+    key <AD09> { type[Group1] = "TWO_LEVEL", [ semicolon, colon ] };
+    key <AD10> { type[Group1] = "TWO_LEVEL", [ comma, less ] };
+    key <AC01> { type[Group1] = "ALPHABETIC", [ n, N ] };
+    key <AC02> { type[Group1] = "ALPHABETIC", [ l, L ] };
+    key <AC03> { type[Group1] = "ALPHABETIC", [ t, T ] };
+    key <AC04> { type[Group1] = "ALPHABETIC", [ s, S ] };
+    key <AC05> { type[Group1] = "ALPHABETIC", [ g, G ] };
+    key <AC06> { type[Group1] = "ALPHABETIC", [ y, Y ] };
+    key <AC07> { type[Group1] = "ALPHABETIC", [ h, H ] };
+    key <AC08> { type[Group1] = "ALPHABETIC", [ a, A ] };
+    key <AC09> { type[Group1] = "ALPHABETIC", [ e, E ] };
+    key <AC10> { type[Group1] = "ALPHABETIC", [ i, I ] };
+    key <AB01> { type[Group1] = "ALPHABETIC", [ b, B ] };
+    key <AB02> { type[Group1] = "ALPHABETIC", [ r, R ] };
+    key <AB03> { type[Group1] = "ALPHABETIC", [ d, D ] };
+    key <AB04> { type[Group1] = "ALPHABETIC", [ c, C ] };
+    key <AB05> { type[Group1] = "ALPHABETIC", [ z, Z ] };
+    key <AB06> { type[Group1] = "ALPHABETIC", [ q, Q ] };
+    key <AB07> { type[Group1] = "ALPHABETIC", [ f, F ] };
+    key <AB08> { type[Group1] = "ALPHABETIC", [ o, O ] };
+    key <AB09> { type[Group1] = "ALPHABETIC", [ u, U ] };
+    key <AB10> { type[Group1] = "TWO_LEVEL", [ period, greater ] };
+};

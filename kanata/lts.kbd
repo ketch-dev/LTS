@@ -1,0 +1,17 @@
+;; LTS (US keyboard layout).
+;; Use the US QWERTY input source, not a native LTS layout.
+;; Unlisted keys and modifiers pass through unchanged.
+
+(defcfg process-unmapped-keys no)
+
+(defsrc
+  q w e r t y u i o p
+  a s d f g h j k l ;
+  z x c v b n m , . /
+)
+
+(deflayer lts
+  / x m w v k p j ; ,
+  n l t s g y h a e i
+  b r d c z q f o u .
+)

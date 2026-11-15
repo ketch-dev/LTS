@@ -1,0 +1,81 @@
+# LTS (US keyboard layout).
+keymaps 0-2,4-6,8-9,12
+alt_is_meta
+include "linux-with-alt-and-altgr"
+include "compose.latin1"
+include "euro1.map"
+strings as usual
+
+keycode   2 = one exclam
+keycode   3 = two at at nul nul
+keycode   4 = three numbersign
+keycode   5 = four dollar dollar Control_backslash
+keycode   6 = five percent
+keycode   7 = six asciicircum
+keycode   8 = seven ampersand braceleft Control_underscore
+keycode   9 = eight asterisk bracketleft Delete
+keycode  10 = nine parenleft bracketright
+keycode  11 = zero parenright braceright
+keycode   1 = Escape
+keycode  12 = minus underscore backslash Control_underscore Control_underscore
+keycode  13 = equal plus
+keycode  14 = Delete
+keycode  15 = Tab
+keycode  26 = bracketleft braceleft
+keycode  27 = bracketright braceright asciitilde Control_bracketright
+keycode  28 = Return
+keycode  29 = Control
+keycode  40 = apostrophe quotedbl
+keycode  41 = grave asciitilde
+keycode  42 = Shift
+keycode  43 = backslash bar
+keycode  54 = Shift
+keycode  56 = Alt
+keycode  57 = space
+keycode  58 = Caps_Lock
+keycode  86 = less greater bar
+keycode  97 = Control
+control keycode   4 = Escape
+control keycode   6 = Control_bracketright
+control keycode   7 = Control_asciicircum
+control keycode  26 = Escape
+control keycode  40 = Control_g
+control keycode  41 = nul
+control keycode  43 = Control_backslash
+control keycode  57 = nul
+shift keycode 15 = Meta_Tab
+alt keycode 28 = Meta_Control_m
+
+# Replace every modifier column on the 30 typing keys.
+keycode  16 = slash question VoidSymbol VoidSymbol VoidSymbol VoidSymbol Meta_slash Meta_question VoidSymbol
+control keycode 16 = Control_underscore
+control shift keycode 16 = Delete
+keycode  17 = +x +X +x Control_x Control_x Control_x Meta_x Meta_X Meta_Control_x
+keycode  18 = +m +M +m Control_m Control_m Control_m Meta_m Meta_M Meta_Control_m
+keycode  19 = +w +W +w Control_w Control_w Control_w Meta_w Meta_W Meta_Control_w
+keycode  20 = +v +V +v Control_v Control_v Control_v Meta_v Meta_V Meta_Control_v
+keycode  21 = +k +K +k Control_k Control_k Control_k Meta_k Meta_K Meta_Control_k
+keycode  22 = +p +P +p Control_p Control_p Control_p Meta_p Meta_P Meta_Control_p
+keycode  23 = +j +J +j Control_j Control_j Control_j Meta_j Meta_J Meta_Control_j
+keycode  24 = semicolon colon VoidSymbol VoidSymbol VoidSymbol VoidSymbol Meta_semicolon Meta_colon VoidSymbol
+keycode  25 = comma less VoidSymbol VoidSymbol VoidSymbol VoidSymbol Meta_comma Meta_less VoidSymbol
+keycode  30 = +n +N +n Control_n Control_n Control_n Meta_n Meta_N Meta_Control_n
+keycode  31 = +l +L +l Control_l Control_l Control_l Meta_l Meta_L Meta_Control_l
+keycode  32 = +t +T +t Control_t Control_t Control_t Meta_t Meta_T Meta_Control_t
+keycode  33 = +s +S +s Control_s Control_s Control_s Meta_s Meta_S Meta_Control_s
+keycode  34 = +g +G +g Control_g Control_g Control_g Meta_g Meta_G Meta_Control_g
+keycode  35 = +y +Y +y Control_y Control_y Control_y Meta_y Meta_Y Meta_Control_y
+keycode  36 = +h +H +h Control_h Control_h Control_h Meta_h Meta_H Meta_Control_h
+keycode  37 = +a +A +a Control_a Control_a Control_a Meta_a Meta_A Meta_Control_a
+keycode  38 = +e +E +e Control_e Control_e Control_e Meta_e Meta_E Meta_Control_e
+keycode  39 = +i +I +i Control_i Control_i Control_i Meta_i Meta_I Meta_Control_i
+keycode  44 = +b +B +b Control_b Control_b Control_b Meta_b Meta_B Meta_Control_b
+keycode  45 = +r +R +r Control_r Control_r Control_r Meta_r Meta_R Meta_Control_r
+keycode  46 = +d +D +d Control_d Control_d Control_d Meta_d Meta_D Meta_Control_d
+keycode  47 = +c +C cent Control_c Control_c Control_c Meta_c Meta_C Meta_Control_c
+keycode  48 = +z +Z +z Control_z Control_z Control_z Meta_z Meta_Z Meta_Control_z
+keycode  49 = +q +Q +q Control_q Control_q Control_q Meta_q Meta_Q Meta_Control_q
+keycode  50 = +f +F +f Control_f Control_f Control_f Meta_f Meta_F Meta_Control_f
+keycode  51 = +o +O +o Control_o Control_o Control_o Meta_o Meta_O Meta_Control_o
+keycode  52 = +u +U +u Control_u Control_u Control_u Meta_u Meta_U Meta_Control_u
+keycode  53 = period greater VoidSymbol VoidSymbol VoidSymbol VoidSymbol Meta_period Meta_greater VoidSymbol

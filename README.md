@@ -20,6 +20,32 @@ N  L  T  S  G    Y  H  A  E  I
 B  R  D  C  Z    Q  F  O  U  .
 ```
 
+### Installation
+
+Download this repository using **Code → Download ZIP**, extract it, and choose **one implementation per input context**:
+
+| Target                        | Layout file                          | Setup and removal                |
+| ----------------------------- | ------------------------------------ | -------------------------------- |
+| Linux desktop                 | [XKB symbols](linux/xkb/symbols/lts) | [Guide](linux/xkb/README.md)     |
+| Linux console / TTY           | [lts.map](linux/console/lts.map)     | [Guide](linux/console/README.md) |
+| macOS native                  | [LTS.keylayout](macos/LTS.keylayout) | [Guide](macos/README.md)         |
+| Windows native                | [lts.klc](windows/lts.klc)           | [Guide](windows/README.md)       |
+| Kanata: Windows, Linux, macOS | [lts.kbd](kanata/lts.kbd)            | [Guide](kanata/README.md)        |
+| AutoHotkey v2: Windows        | [lts.ahk](autohotkey/lts.ahk)        | [Guide](autohotkey/README.md)    |
+
+All implementations use a **US-QWERTY baseline** and remap only the 30 positions above. Shift gives uppercase letters and the usual punctuation partners: `/?`, `;:`, `,<`, `.>`. Numbers, other punctuation, modifiers, navigation, and function keys retain the target platform's US behavior. Regular and split keyboards use the same mapping.
+
+### Maintaining the files
+
+The layout diagram above is the reference. Maintain each platform's layout file directly; no generator or build system is required, except MSKLC to build the native Windows installer. If changing the layout, update all six formats and the diagrams together.
+
+Before distributing a change:
+
+1. Run the format validation described in the relevant platform guide, then check all three typing rows in an empty editor.
+2. Check Shift, Caps Lock, Shift+Caps Lock, and the four punctuation pairs.
+3. Verify Ctrl+C/V/Z/A (Command on macOS), terminal Ctrl-letter behavior, and unchanged keys. Check Option accents on macOS.
+4. Verify activation, switching back to US, and removal on the actual target OS. Keep US available and do not test with real passwords.
+
 ### Regular keyboard
 
 ![LTS on a row-staggered keyboard: / X M W V K P J ; , on the top row; N L T S G Y H A E I on the home row; B R D C Z Q F O U . on the bottom row.](images/lts-regular.svg)

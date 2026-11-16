@@ -16,6 +16,6 @@ Optionally add a shortcut to the script in your Windows startup folder (`Win+R` 
 ## Limitations
 
 - AutoHotkey must keep running. It is not a native installed Windows layout.
-- Elevated applications may reject input from a non-elevated script. Run at matching privilege only when necessary; prefer [native LTS](../windows/README.md) if this is an ongoing problem.
+- Elevated applications may reject input from a non-elevated script. Run at matching privilege only when necessary; prefer [native LTS](../windows/installer/README.md) if this is an ongoing problem.
 - Secure desktop/UAC/logon screens and applications using raw input may not use the remapping.
 - Switching Windows input sources away from US can change results. Do not stack this with Kanata, native LTS, or firmware that already produces LTS.

@@ -16,14 +16,16 @@
 
 Download this repository using **Code → Download ZIP**, extract it, and choose **one implementation per input context**:
 
-| Target                        | Layout file                          | Setup and removal                |
-| ----------------------------- | ------------------------------------ | -------------------------------- |
-| Linux desktop                 | [XKB symbols](linux/xkb/symbols/lts) | [Guide](linux/xkb/README.md)     |
-| Linux console / TTY           | [lts.map](linux/console/lts.map)     | [Guide](linux/console/README.md) |
-| macOS native                  | [LTS.keylayout](macos/LTS.keylayout) | [Guide](macos/README.md)         |
-| Windows native                | [lts.klc](windows/lts.klc)           | [Guide](windows/README.md)       |
-| Kanata: Windows, Linux, macOS | [lts.kbd](kanata/lts.kbd)            | [Guide](kanata/README.md)        |
-| AutoHotkey v2: Windows        | [lts.ahk](autohotkey/lts.ahk)        | [Guide](autohotkey/README.md)    |
+| Target                        | Files / installer                        | Setup and removal                |
+| ----------------------------- | ---------------------------------------- | -------------------------------- |
+| Linux desktop                 | [XKB symbols](linux/xkb/symbols/lts)     | [Guide](linux/xkb/README.md)     |
+| Linux console / TTY           | [lts.map](linux/console/lts.map)         | [Guide](linux/console/README.md) |
+| macOS native                  | [LTS.keylayout](macos/LTS.keylayout)     | [Guide](macos/README.md)         |
+| Windows native                | [setup.exe](windows/installer/setup.exe) | [Guide](windows/installer/README.md) |
+| Kanata: Windows, Linux, macOS | [lts.kbd](kanata/lts.kbd)                | [Guide](kanata/README.md)        |
+| AutoHotkey v2: Windows        | [lts.ahk](autohotkey/lts.ahk)            | [Guide](autohotkey/README.md)    |
+
+**Windows:** extract the complete repository and run `windows/installer/setup.exe`; do not download `setup.exe` alone.
 
 All implementations use a **US-QWERTY baseline** and remap only the 30 positions above. Shift gives uppercase letters and the usual punctuation partners: `/?`, `;:`, `,<`, `.>`. Numbers, other punctuation, modifiers, navigation, and function keys retain the target platform's US behavior. Regular and split keyboards use the same mapping.
 
